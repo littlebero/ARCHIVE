@@ -1,8 +1,10 @@
-# START_HERE — Paste this into a new Claude session for instant context restore
+﻿# START_HERE - Paste this into a new Claude session for instant context restore
 # Last updated: 2026-02-23
+
 ---
 
 ## Project Overview
+
 | Project | Status | Path |
 |---------|--------|------|
 | SURFY | Phase 5 complete, Phase 6 pending | C:\OPENCLAW\repos\SURFY |
@@ -10,6 +12,7 @@
 | GAMES | Game source | C:\OPENCLAW\repos\GAMES |
 
 ## Environment
+
 | Key | Value |
 |-----|-------|
 | User | ironb (never sero) |
@@ -19,22 +22,27 @@
 | SOUL.md path | agents\{id}\workspace\SOUL.md |
 
 ## OpenClaw Status
+
 | Item | Status |
 |------|--------|
 | Gateway | OK |
-| Pipeline | Front → Junior → Ace |
+| Pipeline | Front to Junior to Ace |
 | Test server | risegames.ca/surfydev/ |
 | Production | risegames.ca/surfy/ (not built yet) |
 
 ## Top 5 Absolute Rules
-❌ Username sero → always ironb
-❌ tools.sessions.visibility → config invalid (key does not exist)
-❌ Claude→Claude fallback → both blocked on rate limit
-❌ gateway restart → use stop→start
-❌ sessions_send without session key → fails
+
+- Never use username sero, always ironb
+- Never use tools.sessions.visibility, key does not exist
+- Never set Claude as fallback for Claude, both blocked on rate limit
+- Never use gateway restart, use stop then start
+- Never use sessions_send without session key
 
 ## Knowhow Vault
-All accumulated knowhow lives in ARCHIVE/knowhow/. See INDEX.md for full list. See individual files for details.
+
+All accumulated knowhow lives in ARCHIVE/knowhow/.
+See INDEX.md for full list. See individual files for details.
 
 ## Next Actions
+
 Refer to the latest handover file: HANDOVER_YYYYMMDD_N.md
