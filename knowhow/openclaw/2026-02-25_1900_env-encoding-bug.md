@@ -12,11 +12,9 @@ PowerShell Out-File -Encoding UTF8의 BOM 처리 문제.
 
 ## 해결
 플레이스홀더 없이 바로 실제 키값 입력.
-또는 영문 플레이스홀더만 사용:
-ANTHROPIC_API_KEY=YOUR_KEY_HERE
+또는 영문 플레이스홀더만 사용: ANTHROPIC_API_KEY=YOUR_KEY_HERE
 
 ## 재발 방지
 .env 생성 시 플레이스홀더는 영문만 사용.
-생성 후 반드시 확인:
-Get-Content C:\Users\ironb\.openclaw\.env
+생성 후 반드시 확인: Get-Content C:\Users\ironb\.openclaw\.env
 한글이 깨져 보이면 즉시 재작성.

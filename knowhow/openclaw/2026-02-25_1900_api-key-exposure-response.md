@@ -14,8 +14,7 @@ PowerShell은 명령어 실행 시 입력값을 echo하지 않음.
 1. Anthropic 콘솔 즉시 접속: https://console.anthropic.com
 2. API Keys 메뉴 -> 노출된 키 Disable 또는 Delete
 3. 새 키 발급
-4. 즉시 교체:
-   openclaw config set models.providers.anthropic.apiKey '새로운_키'
+4. 즉시 교체: openclaw config set models.providers.anthropic.apiKey '새로운_키'
 5. gateway stop -> start
 6. 텔레그램 정상 작동 확인
 
