@@ -36,3 +36,8 @@
 ---
 
 To add a new entry: append [YYYY-MM-DD_HHMM title](path) under the correct section
+
+## openclaw (2026-02-25 추가)
+- [2026-02-25] API 키 채팅 노출 사고 대응 | F1
+- [2026-02-25] .env 한글 플레이스홀더 인코딩 깨짐 | F1
+- [2026-02-25] gateway.auth.token .env 분리 제외 | F3
